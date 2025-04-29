@@ -22,7 +22,7 @@ public class CapsuleShape : Shape // // INHERITANCE comment placed here
         // Optional visual feedback: Add a small jump
         if (TryGetComponent<Rigidbody>(out Rigidbody rb)) // Check if Rigidbody exists
         {
-            rb.AddForce(Vector3.up * 2f, ForceMode.Impulse);
+            rb.AddForce(Vector3.up * 4f, ForceMode.Impulse);
         }
     }
 }

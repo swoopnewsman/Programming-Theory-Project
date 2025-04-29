@@ -22,7 +22,7 @@ public class SphereShape : Shape // // INHERITANCE comment placed here
     {
         Debug.Log($"{ShapeName} interaction: Pulsing.");
         // Simple visual feedback: Scale up briefly
-        transform.localScale = originalScale * 1.2f;
+        transform.localScale = originalScale * 1.4f;
         // Optionally, add a coroutine to return to original scale after a short delay
         Invoke(nameof(ResetScale), 0.2f);
     }
